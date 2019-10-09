@@ -4,6 +4,7 @@
 import threading
 import time
 
+#为了合理利用资源 必须3个一起执行
 bar = threading.Barrier(3) #此时是只有匹配够两个线程才能执行
 
 def serve():
