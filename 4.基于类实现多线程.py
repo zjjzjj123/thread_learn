@@ -27,4 +27,4 @@ for i in range(5):
     mythre.append(A)
 
 for myth in mythre:
-    myth.join()  #同时开启5个县城 并且主线程等到子线程执行完成
+    myth.join()  #同时开启5个线程 并且主线程等到子线程执行完成

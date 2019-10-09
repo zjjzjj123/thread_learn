@@ -19,9 +19,6 @@ def fun_creat_thread():
 1.使用类的继承构造
 2.能够考虑线程之间的冲突
 '''
-
-
-
 class mythread(threading.Thread):
     def __init__(self,num):
         threading.Thread.__init__(self) #初始化父类的构造函数
@@ -49,7 +46,7 @@ def creat_thread():
 
 if __name__ == '__main__':
     # fun_creat_thread()
-    class_creat_thread()
-    # creat_thread()
+    # class_creat_thread()
+    creat_thread()
     # while True:
     #     pass
